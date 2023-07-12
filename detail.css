@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container{
+	margin:auto;
+	padding-right:25px;
+	max-width:1000px;
+}
+
+.row{
+	display:flex;
+	justify-content:space-around;
+}
+
+.product{
+	margin-top:60px;
+}
+
+.row-img-bottom
+{
+	display:flex;
+}
+
+button{
+	padding:10px;
+	border-radius:10px;
+	margin:10px 0;
+	background-color:#EBDEF0;
+	border-color:#EBDEF0;
+}
+
+button:hover{
+	cursor:pointer;
+	background-color:#9B59B6;
+	color:white;
+}
+
+button a:hover{
+	color:white;
+}
+
+.checked{
+	color:yellow;
+	padding:15px 0;
+
+}
+
+.price{
+	font-size:25px;
+	padding:9px 0;
+}
+
+.detail{
+	padding-top:20px;
+	line-height:25px;
+}
+
+.title{
+	font-family: 'Raleway', sans-serif;
+	font-size:35px;
+	font-weight:bold;
+}
+
+.title2{
+	margin-bottom:10px;
+}
+
+.box{
+	padding:20px 0;
+}
+
+button a, .cart{
+	text-decoration:none;
+	color: black;
+}
+
+.category{
+	padding-bottom:20px;
+	color:grey;
+}
+
+.col .cart{
+	margin-top:20px;
+	display:inline-block;
+	border-radius:20px;
+	padding:8px 50px;
+	background-color: #EBF1F7;
+}
+
+.col .cart:hover {
+	background-color:#1F618D;
+	color:white;
+}

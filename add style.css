@@ -1,0 +1,97 @@
+.backg
+{
+    height: 100%;
+    width: 100%;
+    background-color: #6699cc;
+    position: absolute;
+}
+.form
+{
+    width: 55%;
+    height: 480px;
+    position: relative;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 6%  auto;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 100px;
+}
+.input
+{
+    height: 230px;
+    width: 100%;
+    text-align: center;
+}
+.Pinput-field
+{
+    margin: 10px;
+    width: 50%;
+    height: 15%;
+    border-bottom: 3px solid grey;
+    border-left: 2px solid #999;
+    border-right: 2px solid #999;
+    border-top: 2px solid #999;
+    background-color: transparent;
+}
+.Pinput-field2
+{
+    margin: 10px;
+    width: 43%;
+    height: 70%;
+    border-bottom: 3px solid grey;
+    border-left: 2px solid #999;
+    border-right: 2px solid #999;
+    border-top: 2px solid #999;
+    background-color: transparent;
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+}
+.Minput-field
+{
+    margin: 10px;
+    width: 60%;
+    height: 15%;
+    border-bottom: 3px solid grey;
+    border-left: 2px solid #999;
+    border-right: 2px solid #999;
+    border-top: 2px solid #999;
+    background-color: transparent;
+}
+.Pbtn
+{
+    width: 250px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-left: 230px;
+    margin-top: 50px;
+    outline: none;
+    border-radius: 15px;
+    background: linear-gradient(to right,#6699cc,#ffad06);
+    background-color: rgb(237,247,248);
+}
+.Mbtn
+{
+    width: 250px;
+    padding: 10px 30px;
+    margin-left: 220px;
+    margin-top: 30px;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    border-radius: 15px;
+    background: linear-gradient(to right,#6699cc,#ffad06);
+    background-color: rgb(237,247,248);
+    text-align: center;
+}
+.Pform
+{
+    margin-top: 50px;
+}
+.Ph1
+{
+    margin-top: 50px;
+    margin-left: 20px;
+}

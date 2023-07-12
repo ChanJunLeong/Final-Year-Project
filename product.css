@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	margin:auto;
+}
+
+h1{
+	text-align:center;
+	padding-top: 20px;
+	font-family: 'Kanit', sans-serif;
+}
+
+h3{
+	font-size:23px;
+}
+
+.name{
+	text-decoration:none;
+	color:black;
+}
+
+.grid-container{
+	padding:50px;
+	display:grid;
+	grid-gap:40px;
+	grid-template-columns:repeat(2, 1fr);
+	overflow:auto;
+}
+
+.col{
+	background-color: #D7DBDD;
+	padding:30px;
+	border-radius:15px;
+	width:60%;
+	transition: transform 0.4s;
+}
+
+.col:hover{
+	transform: scale(1.1);
+}
+
+.content{
+	text-align:center;
+}
+
+img{
+	display:block;
+	width:80%;
+	max-width:100%;
+	border-radius:15px;
+}
+
+.price{
+	padding:13px 0;
+	font-size:20px;
+}
+
+.checked{
+	color: yellow;
+}
+
+.buy{
+	background-color:#EBF1F7;
+	border-radius: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+	padding:10px;
+	text-decoration:none;
+	color:black;
+}
+
+.buy:hover{
+	cursor: pointer;
+	background-color:#5D6D7E;
+	color:white;
+}
+
+.star{
+	padding:10px;
+}
+
+
+
+
+
+
